@@ -29,6 +29,8 @@ $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 
 **README.md:** This file contains the information of this project
 
+**main.c:**
+
 **manty.h:** This file contains prototypes and the project libraries
 
 ---
