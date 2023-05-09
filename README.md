@@ -19,9 +19,9 @@
 $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 ~~~
 
-* Any output must be printed on stdout
+* Any output must be printed on **stdout**
 
-* Any error message must be printed on stderr
+* Any error message must be printed on **stderr**
 
 ---
 
