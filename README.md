@@ -20,6 +20,7 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
 ---
 
 ## Opcode :detective:
+
 | Command | Description |
 |:-------:|:------------|
 |  push   |pushes an element to the stack.|
