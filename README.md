@@ -6,12 +6,25 @@
 
 * [Index](#index-🧟)
 * [Description](#description-🐸)
+* [Opcode](#opcode-🕵️)
 * [Compilation & Output](#compilation--output-🐼)
 * [Files](#files-🐳)
 * [Authors](#authors-fishsticks)
 
 ---
+
 ## Description :frog:
+
+Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
+
+---
+
+## Opcode :detective:
+| Command | Description |
+|:-------:|:------------|
+|  push   |pushes an element to the stack.|
+|  pall   |prints all the values on the stack, starting from the top of the stack.|
+
 ---
 ## Compilation & Output :panda_face:
 
@@ -27,12 +40,13 @@ $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 
 ## Files :whale:
 
-**README.md:** This file contains the information of this project
+* `README.md:` This file contains the information of this project
 
-**main.c:**
+* `manty.h:` This file contains prototypes and the project libraries
 
-**manty.h:** This file contains prototypes and the project libraries
+* `manty.c:` This file contains
 
+* `bytecodes:` This is a folder that contains the files type .m
 ---
 
 ## Authors :fishsticks:
