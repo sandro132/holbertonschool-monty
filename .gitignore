@@ -6,3 +6,4 @@
 !.vscode/*.code-snippets
 .DS_Store
 .vscode/*.json
+functions.c
