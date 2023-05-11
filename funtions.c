@@ -21,14 +21,14 @@ int r_string(FILE *fp, stack_t **pila)
                     if (isalpha(*tok) == 0)
                     {
                         atoi(tok);
-                        push(stack, line);
+                        push(pila, line);
                     }
                 }
             }
 
             if (strcmp(tok, "pall") == 0)
             {
-                pall(stack);
+                pall(pila);
             }
         }
     }
