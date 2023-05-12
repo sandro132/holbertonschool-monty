@@ -25,7 +25,6 @@ int r_string(FILE *fp, stack_t **pila)
                     }
                 }
             }
-
             if (strcmp(tok, "pall") == 0)
             {
                 pall(pila);
@@ -33,7 +32,3 @@ int r_string(FILE *fp, stack_t **pila)
         }
     }
 }
-                {
-                    fprintf(stderr, "L%d: usage: push integer\n", line);
-                    exit(EXIT_FAILURE);
-                }

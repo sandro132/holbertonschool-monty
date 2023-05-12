@@ -43,9 +43,15 @@ $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 
 * `README.md:` This file contains the information of this project
 
-* `manty.h:` This file contains prototypes and the project libraries
+* `monty.h:` This file contains prototypes and the project libraries
 
-* `manty.c:` This file contains
+* `monty.c:` This file contains
+
+* `functions.h:` This file contains the functions that structure monty.c
+
+* `push.c:` This file contains the functions push.
+
+* `pall.c:` This file contains the functions pall.
 
 * `bytecodes:` This is a folder that contains the files type .m
 ---
