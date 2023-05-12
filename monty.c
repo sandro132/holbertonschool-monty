@@ -10,20 +10,15 @@ int main(int argc, char **argv)
 
         fprintf(stderr, "USAGE: monty file");
         exit (EXIT_FAILURE);
+    }  
+    fp = fopen(argv[1], "r");
+    if(fp == NULL)
+    {
+        fprintf(stderr, "Error: Can't open file %s", argv[1]);
+        exit (EXIT_FAILURE);
     }
-      
-   fp = fopen(argv[1], "r");
-   if(fp == NULL)
-   {
-
-       fprintf(stderr, "Error: Can't open file %s", argv[1]);
-       exit (EXIT_FAILURE);
-   }
-   
+    if (r_string(argc, argv))
     
-    return (fp);
-   
-   
 }
 
     

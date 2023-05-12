@@ -30,5 +30,13 @@ int r_string(FILE *fp, stack_t **pila)
                 pall(pila);
             }
         }
+        else 
+        {
+            free(str);
+            exit(-1);
+        }
+        line++;
     }
+    free(str);
+    return(0);
 }
