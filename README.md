@@ -68,6 +68,6 @@ $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 Miguel Angel Velez Ocampo - <a href="https://github.com/sandro132" target="_blank"> @sandro132</a>![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=sandro132&show_icons=true)
 
 * ![GitHub Contributors Image](https://contrib.rocks/image?repo=Jcamilop/holbertonschool-low_level_programming) 
-Juan Camilo Palacios - <a href="https://github.com/Jcamilo" target="_blank"> @sandro132</a>![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=Jcamilo&show_icons=true)
+Juan Camilo Palacios - <a href="https://github.com/Jcamilo" target="_blank"> @Jcamilo</a>![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=Jcamilo&show_icons=true)
 
 ***
