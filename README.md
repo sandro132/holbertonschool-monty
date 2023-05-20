@@ -1,73 +1,63 @@
-# Holbertonschool-monty :woman_technologist::man_technologist::woman_technologist:
-
-![linux](imagelinux.png)
-
-
-******
-## Table of Contents
+# Holbertonschool-monty :alien:
+![](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b1768d35-4f0d-4842-afa9-ac5eba73ac79/ddqjrk1-a0acf2d7-89a1-46e2-b03b-adb82a406a4f.png/v1/fill/w_1280,h_1048,q_80,strp/_blender_preview__final_world___moon_heart_by_makaihana975_ddqjrk1-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA0OCIsInBhdGgiOiJcL2ZcL2IxNzY4ZDM1LTRmMGQtNDg0Mi1hZmE5LWFjNWViYTczYWM3OVwvZGRxanJrMS1hMGFjZjJkNy04OWExLTQ2ZTItYjAzYi1hZGI4MmE0MDZhNGYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.hwdp4nNzpkcNrJL8HK2LO7KN0a8jK5INEEzmDm1oNeU)
 
 ---
-## Description :octocat:
----
-## Opcode :shipit:
+## Index :zombie:
 
-| **Command** | **Description** |
-|:-------:|:-----------|
-|  **push**   |pushes an element to the stack.|
-|  **pall**  |prints all the values on the stack, starting from the top of the stack.|
+* [Index](#index-🧟)
+* [Description](#description-🐸)
+* [Opcode](#opcode-🕵️)
+* [Compilation & Output](#compilation--output-🐼)
+* [Files](#files-🐳)
+* [Authors](#authors-fishsticks)
 
 ---
-## Compilation & output :atom:
+
+## Description :frog:
+
+Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
+
+---
+
+## Opcode :detective:
+
+| Command | Description |
+|:-------:|:------------|
+|  push   |pushes an element to the stack.|
+|  pall   |prints all the values on the stack, starting from the top of the stack.|
+
+---
+## Compilation & Output :panda_face:
 
 ~~~c
 $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 ~~~
+
 * Any output must be printed on **stdout**
+
 * Any error message must be printed on **stderr**
+
 ---
-## Files :bowtie:
 
-* **README.md** : 
+## Files :whale:
 
-* **monty.h** :
+* `README.md:` This file contains the information of this project
 
-___
+* `monty.h:` This file contains prototypes and the project libraries
 
-## TEAM :eyes:
-***
-Ana Maria Cardona : [LinkedIn/] | [GitHub/anacardona0220] | [Twitter/]
-***
-Santiago Hinestroza: [LinkedIn/Michel] | [GitHub/SANTIAGOH22] | [Twitter/Michel]
-***
-Michel Caballero : [LinkedIn/Michel] | [GitHub/MichiCaballero07] | [Twitter/Michel]
+* `monty.c:` This file contains
 
-[Article]: <https://www.linkedin.com/>
-[Holberton School]: <https://www.holbertonschool.com>
-[LinkedIn/Camilo]: <https://www.linkedin.com/>
-[LinkedIn/Michel]: <https://www.linkedin.com/in/michelcaballerogranado>
-[GitHub/anacardona0220]: <https://github.com/anacardona0220>
-[GitHub/SANTIAGOH22]: <https://github.com/SANTIAGOH22>
-[GitHub/MichiCaballero07]: <https://github.com/MichiCaballero07>
+* `functions.h:` This file contains the functions that structure monty.c
 
-[Twitter/Camilo]: <https://twitter.com/>
-[Twitter/Michel]: <https://twitter.com/MichelYohanaCa1>
+* `push.c:` This file contains the functions push.
 
+* `pall.c:` This file contains the functions pall.
 
+* `bytecodes:` This is a folder that contains the files type .m
+---
 
+## Authors :fishsticks:
 
-***
-## Authors: :genie_woman::genie_man::genie_woman:
-
-* ![GitHub Contributors Image](https://contrib.rocks/image?repo=anacardona0220/holbertonschool-low_level_programming)
-Ana Maria Cardona - <a href="https://github.com/anacardona0220" target="_blank"> @anacardona0220</a> :genie_woman: 
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=anacardona0220&show_icons=true)
-
-* ![GitHub Contributors Image](https://contrib.rocks/image?repo=SANTIAGOH22/holbertonschool-low_level_programming)
-Santiago Hinestroza - <a href="https://github.com/SANTIAGOH22" target="_blank"> @SANTIAGOH22</a> :genie_man:
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=SANTIAGOH22&show_icons=true)
-
-
-* ![GitHub Contributors Image](https://contrib.rocks/image?repo=MichiCaballero07/holbertonschool-low_level_programming) 
-Michel Caballero - <a href="https://github.com/MichiCaballero07" target="_blank"> @MichiCaballero07</a> :genie_woman:
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=MichiCaballero07&show_icons=true)
+* ![GitHub Contributors Image](https://contrib.rocks/image?repo=sandro132/holbertonschool-low_level_programming) 
+Miguel Angel Velez Ocampo - <a href="https://github.com/sandro132" target="_blank"> @sandro132</a>![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=sandro132&show_icons=true)
 ***
