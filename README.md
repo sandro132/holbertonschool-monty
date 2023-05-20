@@ -23,9 +23,13 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
 
 | Command | Description |
 |:-------:|:------------|
-|  push   |pushes an element to the stack.|
-|  pall   |prints all the values on the stack, starting from the top of the stack.|
-
+|  push   |Pushes an element to the stack.|
+|  pall   |Prints all the values on the stack, starting from the top of the stack.|
+|  pint   |Prints the value at the top of the stack, followed by a new line.|
+|  pop    |Removes the top element of the stack.|
+|  swap   |Swaps the top two elements of the stack.|
+|  add    |Adds the top two elements of the stack.|
+|  nop    |Doesn’t do anything.|
 ---
 ## Compilation & Output :panda_face:
 
@@ -45,13 +49,15 @@ $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 
 * `monty.h:` This file contains prototypes and the project libraries
 
-* `monty.c:` This file contains
+* `monty.c:` This file is the main that executes the program.
 
-* `functions.h:` This file contains the functions that structure monty.c
+* `functions0.h:` This file contains the functions that structure monty.c
 
-* `push.c:` This file contains the functions push.
+* `get_opcode.c:` This file contains the list of the functions.
 
-* `pall.c:` This file contains the functions pall.
+* `lines_reader.c:` This file contains the functions that read the lines.
+
+* `stack_freer.c:` This file contains the functions that free the stack.
 
 * `bytecodes:` This is a folder that contains the files type .m
 ---
